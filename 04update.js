@@ -15,3 +15,8 @@ db.inventory.updateMany(
         },
         $currentDate: { lastUpdated: true }
     })
+
+db.inventory.replaceOne(
+    { qty: 90 },
+    { qty: 69}
+)
