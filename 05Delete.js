@@ -30,4 +30,4 @@ db.inventory.remove({item:"mat"}) // - Deletes all the documents with item mat
 // The Major Difference is the return values
 
 // In deleteMany we get the return value of how many documents are deleted (the Number)
-// In remove we get the return value of the documents which are deleted (the document itself get returned)
+// In remove we get the return the writeresult of the documents which are deleted (the writeresult  get returned)
